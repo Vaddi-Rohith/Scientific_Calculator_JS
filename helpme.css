@@ -1,0 +1,44 @@
+/* Style to set the title of calculator */ 
+		.calc{
+			margin-left: 620px;
+			margin-bottom: 30px;
+			font-size: 20px;
+			padding-left: 10px;
+		}
+		.title{
+			text-align: center;
+			font-size: 28px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			color: white;
+			font-family: Arial;
+			margin-left:70px;
+			font-weight: bold;
+		}
+		.btn{
+			background-color: lightgreen;
+			width: 80px;
+			height: 60px;
+			cursor: pointer;
+			font-size: 20px;
+		}
+		.btn:hover{
+			background-color: brown;
+		}
+		#input1{
+			width: 350px;
+			height: 50px;
+		}
+		.left1{
+			margin-left: 550px;
+
+		}
+		body{
+			background-color: #1BBC9B;
+			background-image: url("background.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 600px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+		}
